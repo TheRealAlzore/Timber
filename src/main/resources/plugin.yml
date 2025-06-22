@@ -1,0 +1,28 @@
+name: Timber
+version: 1.0
+main: cc.timber.TimberPlugin
+api-version: '1.19'
+author: TheRealAlzore
+description: An Efficient Utility Plugin
+commands:
+  timber:
+    description: Main Command for Timber Plugin
+    usage: /<command> ᴛɪᴍʙᴇʀ | ᴛɪᴍʙᴇʀ ᴠᴇʀsɪᴏɴ 1.0 ɪs ʀᴜɴɴɪɴɢ
+    permission: timber.timber
+    permission-message: ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ᴅᴏ ᴛʜᴀᴛ
+permissions:
+  timber.timber:
+    description: Allows You To Access The Main Command
+    default: op
+
+  timber.enable:
+    description: Allows You To Enable Timber (Per-Player)
+    default: op
+
+  timber.disable:
+    description: Allows You To Disable Timber (Per-Player)
+    default: op
+
+  timber.reload:
+    description: Allows You To Reload The Timber Plugin Configuration Files
+    default: op
